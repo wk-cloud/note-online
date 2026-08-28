@@ -1,4 +1,5 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
+import { parseTime } from '../src/utils/common';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -58,13 +59,19 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+    darkModeSwitchTitle: '切换到深色模式',
+    lightModeSwitchTitle: '切换到浅色模式',
     outline: {
       label: '目录',
       level: [1, 6]
     },
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2026-present wk'
+      copyright: `Copyright © ${parseTime('2026-08-28', '{y}')}-${parseTime(new Date(), '{y}')} wk`
     }
   },
   markdown: {
