@@ -38,6 +38,7 @@ export default defineConfig({
         { text: 'Git', link: '/views/engineering/git/index' }
       ],
       '/views/dev-ops/': [
+        { text: 'Linux', link: '/views/dev-ops/linux/index' },
         { text: 'Nginx', link: '/views/dev-ops/nginx/index' },
       ],
       '/guide/': [
@@ -64,6 +65,9 @@ export default defineConfig({
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2026-present wk'
-    },
+    }
+  },
+  markdown: {
+    lineNumbers: true
   }
 })
