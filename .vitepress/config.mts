@@ -10,6 +10,7 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/logo/logo-mini.svg' }]
   ],
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo/logo-mini.svg',
@@ -72,6 +73,9 @@ export default defineConfig({
     footer: {
       message: 'Released under the MIT License.',
       copyright: `Copyright © ${parseTime('2026-08-28', '{y}')}-${parseTime(new Date(), '{y}')} wk`
+    },
+    lastUpdated: {
+      text: '最后更新时间',
     }
   },
   markdown: {
