@@ -5,6 +5,10 @@ export default defineConfig({
   title: "代码随想录",
   description: "个人在线编程学习笔记",
   srcDir: 'src',
+  base: '/', // 部署站点的基础路径，默认值为根目录 '/',如果打算将站点部署到 https://foo.github.io/bar/，则将此值改为 '/bar/'。
+  head: [
+    ['link', { rel: 'icon', href: '/assets/logo/logo-mini.svg' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/assets/logo/logo-mini.svg',
@@ -55,6 +59,10 @@ export default defineConfig({
     outline: {
       label: '目录',
       level: [1, 6]
-    }
+    },
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2026-present wk'
+    },
   }
 })
