@@ -32,6 +32,7 @@ export default defineConfig({
         { text: 'HTML', link: '/views/frontend/html/index' },
         { text: 'CSS', link: '/views/frontend/css/index' },
         { text: 'JavaScript', link: '/views/frontend/js/index' },
+        { text: 'TypeScript', link: '/views/frontend/ts/index' },
       ],
       '/views/engineering/': [
         { text: 'Git', link: '/views/engineering/git/index' }
