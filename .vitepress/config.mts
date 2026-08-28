@@ -7,11 +7,11 @@ export default defineConfig({
   srcDir: 'src',
   base: '/', // 部署站点的基础路径，默认值为根目录 '/',如果打算将站点部署到 https://foo.github.io/bar/，则将此值改为 '/bar/'。
   head: [
-    ['link', { rel: 'icon', href: '/assets/logo/logo-mini.svg' }]
+    ['link', { rel: 'icon', href: '/logo/logo-mini.svg' }]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/assets/logo/logo-mini.svg',
+    logo: '/logo/logo-mini.svg',
     nav: [
       { text: '主页', link: '/' },
       { text: '后端', link: '/views/backend/java/index' },
