@@ -15,11 +15,11 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo/logo-mini.svg',
     nav: [
-      { text: '主页', link: '/' },
-      { text: '后端', link: '/views/backend/java/index' },
-      { text: '前端', link: '/views/frontend/html/index' },
-      { text: '工程化', link: '/views/engineering/git/index' },
-      { text: '运维', link: '/views/dev-ops/nginx/index' },
+      { text: '首页', link: '/' },
+      { text: '后端', link: '/views/backend/java/' },
+      { text: '前端', link: '/views/frontend/html/' },
+      { text: '工程化', link: '/views/engineering/git/' },
+      { text: '运维', link: '/views/dev-ops/linux/' },
       // {
       //   text: '示例',
       //   link: '/views/example/markdown-examples'
@@ -27,35 +27,35 @@ export default defineConfig({
     ],
     sidebar: {
       '/views/backend/': [
-        { text: 'Java基础', link: '/views/backend/java/index' },
-        { text: 'Python基础', link: '/views/backend/python/index' },
+        { text: 'Java基础', link: '/views/backend/java/' },
+        { text: 'Python基础', link: '/views/backend/python/' },
       ],
       '/views/frontend/': [
-        { text: 'HTML', link: '/views/frontend/html/index' },
-        { text: 'CSS', link: '/views/frontend/css/index' },
-        { text: 'JavaScript', link: '/views/frontend/js/index' },
-        { text: 'TypeScript', link: '/views/frontend/ts/index' },
+        { text: 'HTML', link: '/views/frontend/html/' },
+        { text: 'CSS', link: '/views/frontend/css/' },
+        { text: 'JavaScript', link: '/views/frontend/js/' },
+        { text: 'TypeScript', link: '/views/frontend/ts/' },
       ],
       '/views/engineering/': [
-        { text: 'Git', link: '/views/engineering/git/index' }
+        { text: 'Git', link: '/views/engineering/git/' }
       ],
       '/views/dev-ops/': [
-        { text: 'Linux', link: '/views/dev-ops/linux/index' },
-        { text: 'Nginx', link: '/views/dev-ops/nginx/index' },
+        { text: 'Linux', link: '/views/dev-ops/linux/' },
+        { text: 'Nginx', link: '/views/dev-ops/nginx/' },
       ],
-      '/guide/': [
-        {
-          text: 'Guide',
-          items: [
-            { text: 'Index', link: '/guide/' },
-            { text: 'One', link: '/guide/one' },
-            { text: 'Two', link: '/guide/two' }
-          ]
-        }
-      ],
+      // '/views/example/': [
+      //   { text: 'Markdown示例', link: '/views/example/markdown-examples' },
+      //   { text: 'Api示例', link: '/views/example/api-examples' },
+      // ]
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/wk-cloud' }
+      { icon: 'github', link: 'https://github.com/wk-cloud' },
+      {
+        icon: {
+          svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M5.5 3.5h7l5 5v12h-12v-17Z"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12.5 3.5v5h5M8.5 12h6M8.5 15.5h6"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="m14.5 5.5 6-0.1M20.5 5.4v6M20.5 5.4l-6 6"/></svg>'
+        },
+        link: 'https://wk-blog.vip',
+      },
     ],
     search: {
       provider: 'local'
@@ -64,6 +64,8 @@ export default defineConfig({
       prev: '上一页',
       next: '下一页'
     },
+    sidebarMenuLabel: '菜单',
+    darkModeSwitchLabel: '切换主题',
     darkModeSwitchTitle: '切换到深色模式',
     lightModeSwitchTitle: '切换到浅色模式',
     outline: {
@@ -76,7 +78,8 @@ export default defineConfig({
     },
     lastUpdated: {
       text: '最后更新时间',
-    }
+    },
+    returnToTopLabel: '回到顶部',
   },
   markdown: {
     lineNumbers: true
