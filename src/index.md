@@ -10,10 +10,7 @@ hero:
     - theme: brand
       text: 开始阅读
       link: /views/backend/java/index
-    - theme: alt
-      text: 查看前端笔记
-      link: /views/frontend/html/index
-
+      
 features:
   - title: 后端基础
     details: 从 Java、Python 的语言基础出发，沉淀清晰、可复用的知识脉络。
@@ -26,6 +23,6 @@ features:
     link: /views/engineering/git/index
   - title: 运维与部署
     details: 从 Nginx 等基础设施开始，理解应用如何稳定地运行起来。
-    link: /views/dev-ops/nginx/index
+    link: /views/dev-ops/linux/index
 ---
 
