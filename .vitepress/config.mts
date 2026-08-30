@@ -16,36 +16,36 @@ export default defineConfig({
     logo: '/logo/logo-mini.svg',
     nav: [
       { text: '首页', link: '/' },
-      { text: '后端', link: '/views/backend/java/' },
-      { text: '前端', link: '/views/frontend/html/' },
-      { text: '工程化', link: '/views/engineering/git/' },
-      { text: '运维', link: '/views/dev-ops/linux/' },
+      { text: '后端', link: '/notes/backend/java/' },
+      { text: '前端', link: '/notes/frontend/html/' },
+      { text: '工程化', link: '/notes/engineering/git/' },
+      { text: '运维', link: '/notes/dev-ops/linux/' },
       // {
       //   text: '示例',
-      //   link: '/views/example/markdown-examples'
+      //   link: '/notes/example/markdown-examples'
       // }
     ],
     sidebar: {
-      '/views/backend/': [
-        { text: 'Java基础', link: '/views/backend/java/' },
-        { text: 'Python基础', link: '/views/backend/python/' },
+      '/notes/backend/': [
+        { text: 'Java基础', link: '/notes/backend/java/' },
+        { text: 'Python基础', link: '/notes/backend/python/' },
       ],
-      '/views/frontend/': [
-        { text: 'HTML', link: '/views/frontend/html/' },
-        { text: 'CSS', link: '/views/frontend/css/' },
-        { text: 'JavaScript', link: '/views/frontend/js/' },
-        { text: 'TypeScript', link: '/views/frontend/ts/' },
+      '/notes/frontend/': [
+        { text: 'HTML', link: '/notes/frontend/html/' },
+        { text: 'CSS', link: '/notes/frontend/css/' },
+        { text: 'JavaScript', link: '/notes/frontend/js/' },
+        { text: 'TypeScript', link: '/notes/frontend/ts/' },
       ],
-      '/views/engineering/': [
-        { text: 'Git', link: '/views/engineering/git/' }
+      '/notes/engineering/': [
+        { text: 'Git', link: '/notes/engineering/git/' }
       ],
-      '/views/dev-ops/': [
-        { text: 'Linux', link: '/views/dev-ops/linux/' },
-        { text: 'Nginx', link: '/views/dev-ops/nginx/' },
+      '/notes/dev-ops/': [
+        { text: 'Linux', link: '/notes/dev-ops/linux/' },
+        { text: 'Nginx', link: '/notes/dev-ops/nginx/' },
       ],
-      // '/views/example/': [
-      //   { text: 'Markdown示例', link: '/views/example/markdown-examples' },
-      //   { text: 'Api示例', link: '/views/example/api-examples' },
+      // '/notes/example/': [
+      //   { text: 'Markdown示例', link: '/notes/example/markdown-examples' },
+      //   { text: 'Api示例', link: '/notes/example/api-examples' },
       // ]
     },
     socialLinks: [

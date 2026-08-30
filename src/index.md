@@ -9,20 +9,20 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /views/backend/java/index
-      
+      link: /notes/backend/java/index
+
 features:
   - title: 后端基础
     details: 从 Java、Python 的语言基础出发，沉淀清晰、可复用的知识脉络。
-    link: /views/backend/java/index
+    link: /notes/backend/java/index
   - title: 前端开发
     details: 记录 HTML、CSS、JavaScript 与现代前端框架的实践笔记。
-    link: /views/frontend/html/index
+    link: /notes/frontend/html/index
   - title: 工程化实践
     details: 整理 Git、Maven 等日常开发工具，让代码之外的工作也更可靠。
-    link: /views/engineering/git/index
+    link: /notes/engineering/git/index
   - title: 运维与部署
     details: 从 Nginx 等基础设施开始，理解应用如何稳定地运行起来。
-    link: /views/dev-ops/linux/index
+    link: /notes/dev-ops/linux/index
 ---
 
