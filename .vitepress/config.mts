@@ -37,7 +37,68 @@ export default defineConfig({
         { text: 'TypeScript', link: '/notes/frontend/ts/' },
       ],
       '/notes/engineering/': [
-        { text: 'Git', link: '/notes/engineering/git/' }
+        {
+          text: 'Git',
+          items: [
+            {
+              text: '第一章：Git概述',
+              link: '/notes/engineering/git/git-overview.md'
+            },
+            {
+              text: '第二章：Git安装与配置',
+              link: '/notes/engineering/git/git-install.md'
+            },
+            {
+              text: '第三章：Git常用命令',
+              link: '/notes/engineering/git/git-command.md'
+            },
+            {
+              text: '第四章：Git分支管理',
+              link: '/notes/engineering/git/git-branch.md'
+            },
+            {
+              text: '第五章：Git团队协作机制',
+              link: '/notes/engineering/git/git-team.md'
+            },
+            {
+              text: '第六章：Github操作',
+              link: '/notes/engineering/git/git-github.md'
+            },
+            {
+              text: '第七章：IDEA集成 Git',
+              link: '/notes/engineering/git/git-idea.md'
+            },
+            {
+              text: '第八章：IDEA集成Github',
+              link: '/notes/engineering/git/git-idea-github.md'
+            },
+            {
+              text: '第九章：Gitee操作',
+              link: '/notes/engineering/git/git-gitee.md'
+            },
+            {
+              text: '第十章：GitLab操作',
+              link: '/notes/engineering/git/git-gitlab.md'
+            }
+          ]
+        },
+        {
+          text: 'Maven',
+          items: [
+            {
+              text: 'Maven多模块版本号管理',
+              link: '/notes/engineering/maven/maven-multi-module-version-management.md'
+            },
+            {
+              text: 'Maven多模块中build全局配置',
+              link: '/notes/engineering/maven/maven-multi-module-build-global-config.md'
+            },
+            {
+              text: 'Maven插件repackage配置',
+              link: '/notes/engineering/maven/maven-plugin-repackage-config.md'
+            },
+          ]
+        }
       ],
       '/notes/dev-ops/': [
         { text: 'Linux', link: '/notes/dev-ops/linux/' },
