@@ -34,7 +34,36 @@ export default defineConfig({
         { text: 'HTML', link: '/notes/frontend/html/' },
         { text: 'CSS', link: '/notes/frontend/css/' },
         { text: 'JavaScript', link: '/notes/frontend/js/' },
-        { text: 'TypeScript', link: '/notes/frontend/ts/' },
+        {
+          text: 'TypeScript',
+          items: [
+            {
+              text: '第一章：快速入门',
+              link: '/notes/frontend/ts/ts-quick-start.md'
+            },
+            {
+              text: '第二章：面向对象编程',
+              link: '/notes/frontend/ts/ts-oop.md'
+            },
+            {
+              text: '第三章：高级特性',
+              link: '/notes/frontend/ts/ts-advanced.md'
+            },
+            {
+              text: '第四章：常见问题',
+              link: '/notes/frontend/ts/ts-faq.md'
+            }
+          ]
+        },
+        {
+          text: 'Vue',
+          items: [
+            {
+              text: 'Vue性能优化',
+              link: '/notes/frontend/vue/vue-performance-optimization.md'
+            }
+          ]
+        }
       ],
       '/notes/engineering/': [
         {
@@ -113,7 +142,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/wk-cloud' },
       {
         icon: {
-          svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M5.5 3.5h7l5 5v12h-12v-17Z"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12.5 3.5v5h5M8.5 12h6M8.5 15.5h6"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="m14.5 5.5 6-0.1M20.5 5.4v6M20.5 5.4l-6 6"/></svg>'
+          svg: '<svg t="1790156214931" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3429" width="128" height="128"><path d="M494.198154 0c262.144 0 474.505846 212.361846 474.505846 474.505846s-212.361846 474.505846-474.505846 474.505846S19.692308 736.649846 19.692308 474.505846 232.054154 0 494.198154 0z m107.283692 437.563077c-0.315077-0.590769-0.472615-1.181538-0.787692-1.732923l-0.196923-0.393846a39.384615 39.384615 0 1 0-70.104616 35.84 67.741538 67.741538 0 0 1-14.020923 75.106461l-105.747692 105.944616a67.347692 67.347692 0 0 1-95.192615 0 67.347692 67.347692 0 0 1 0-95.153231l39.384615-39.424-0.275692-0.275692a39.384615 39.384615 0 1 0-54.784-56.280616l-0.118154-0.078769-40.172308 40.172308a146.116923 146.116923 0 0 0 0 206.76923 146.116923 146.116923 0 0 0 206.729846 0l106.06277-106.062769a146.195692 146.195692 0 0 0 29.223384-164.430769zM740.430769 235.835077a146.116923 146.116923 0 0 0-206.769231 0L427.677538 341.858462a146.235077 146.235077 0 0 0-29.341538 164.312615c0.275692 0.590769 0.472615 1.181538 0.787692 1.732923 0.078769 0.078769 0.078769 0.196923 0.157539 0.393846a39.384615 39.384615 0 1 0 70.104615-35.84 67.741538 67.741538 0 0 1 14.060308-75.145846l105.865846-105.865846a67.347692 67.347692 0 0 1 95.192615 0 67.347692 67.347692 0 0 1 0 95.192615l-39.424 39.424 0.275693 0.315077a39.384615 39.384615 0 1 0 54.823384 56.241231l0.07877 0.078769 40.172307-40.172308a146.313846 146.313846 0 0 0 0-206.76923z" fill="#666666" p-id="3430"></path></svg>'
         },
         link: 'https://wk-blog.vip',
       },
