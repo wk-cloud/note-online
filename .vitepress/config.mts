@@ -130,7 +130,19 @@ export default defineConfig({
         }
       ],
       '/notes/dev-ops/': [
-        { text: 'Linux', link: '/notes/dev-ops/linux/' },
+        {
+          text: 'Linux',
+          items: [
+            {
+              text: 'Linux学习',
+              link: '/notes/dev-ops/linux/'
+            },
+            {
+              text: 'clear_watch日志清理工具',
+              link: '/notes/dev-ops/linux/linux-sh-clear-watch.md'
+            }
+          ]
+        },
         { text: 'Nginx', link: '/notes/dev-ops/nginx/' },
       ],
       // '/notes/example/': [
