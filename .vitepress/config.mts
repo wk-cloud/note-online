@@ -8,7 +8,7 @@ export default defineConfig({
   srcDir: 'src',
   base: '/', // 部署站点的基础路径，默认值为根目录 '/',如果打算将站点部署到 https://foo.github.io/bar/，则将此值改为 '/bar/'。
   head: [
-    ['link', { rel: 'icon', href: '/logo/logo-mini.svg' }]
+    ['link', { rel: 'icon', href: '/logo/logo-mini.svg' }],
   ],
   lastUpdated: true,
   themeConfig: {
@@ -132,6 +132,7 @@ export default defineConfig({
       '/notes/dev-ops/': [
         {
           text: 'Linux',
+          collapsed: true,
           items: [
             {
               text: '第一章：Linux入门',
@@ -227,7 +228,48 @@ export default defineConfig({
             }
           ]
         },
-        { text: 'Nginx', link: '/notes/dev-ops/nginx/' },
+        {
+          text: 'Nginx',
+          collapsed: true,
+          items: [
+            {
+              text: '第一章：Nginx简介',
+              link: '/notes/dev-ops/nginx/nginx-overview.md'
+            },
+            {
+              text: '第二章：Nginx安装',
+              link: '/notes/dev-ops/nginx/nginx-install.md'
+            },
+            {
+              text: '第三章：Nginx常用命令',
+              link: '/notes/dev-ops/nginx/nginx-common-command.md'
+            },
+            {
+              text: '第四章：Nginx配置文件',
+              link: '/notes/dev-ops/nginx/nginx-config.md'
+            },
+            {
+              text: '第五章：Nginx反向代理',
+              link: '/notes/dev-ops/nginx/nginx-reverse-proxy.md'
+            },
+            {
+              text: '第六章：Nginx负载均衡',
+              link: '/notes/dev-ops/nginx/nginx-load-balancing.md'
+            },
+            {
+              text: '第七章：Nginx动静分离',
+              link: '/notes/dev-ops/nginx/nginx-separation.md'
+            },
+            {
+              text: '第八章：Nginx高可用集群',
+              link: '/notes/dev-ops/nginx/nginx-high-availability.md'
+            },
+            {
+              text: '第九章：Nginx原理',
+              link: '/notes/dev-ops/nginx/nginx-principle.md'
+            }
+          ]
+        },
       ],
       // '/notes/example/': [
       //   { text: 'Markdown示例', link: '/notes/example/markdown-examples' },
