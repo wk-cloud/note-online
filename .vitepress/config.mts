@@ -134,8 +134,92 @@ export default defineConfig({
           text: 'Linux',
           items: [
             {
-              text: 'Linux学习',
-              link: '/notes/dev-ops/linux/'
+              text: '第一章：Linux入门',
+              link: '/notes/dev-ops/linux/linux-overview.md'
+            },
+            {
+              text: '第二章：VM 与 Linux 的安装',
+              link: '/notes/dev-ops/linux/linux-and-vm-install.md'
+            },
+            {
+              text: '第三章：Linux文件与目录结构',
+              link: '/notes/dev-ops/linux/linux-file-and-directory.md'
+            },
+            {
+              text: '第四章：VI/VIM 编辑器',
+              link: '/notes/dev-ops/linux/linux-vim.md'
+            },
+            {
+              text: '第五章：网络配置',
+              link: '/notes/dev-ops/linux/linux-network-config.md'
+            },
+            {
+              text: '第六章：系统管理',
+              link: '/notes/dev-ops/linux/linux-system-management.md'
+            },
+            {
+              text: '第七章：常用基本命令',
+              link: '/notes/dev-ops/linux/linux-common-command.md'
+            },
+            {
+              text: '第八章：软件包管理',
+              link: '/notes/dev-ops/linux/linux-software-package.md'
+            },
+            {
+              text: '第九章：克隆虚拟机',
+              link: '/notes/dev-ops/linux/linux-clone-vm.md'
+            },
+            {
+              text: '第十章：常见错误及解决方案',
+              link: '/notes/dev-ops/linux/linux-common-error.md'
+            },
+            {
+              text: '第十一章：企业真实面试题',
+              link: '/notes/dev-ops/linux/linux-interview-questions.md'
+            },
+            {
+              text: '第十二章：shell概述',
+              link: '/notes/dev-ops/linux/linux-shell-overview.md'
+            },
+            {
+              text: '第十三章：shell脚本入门',
+              link: '/notes/dev-ops/linux/linux-shell-script.md'
+            },
+            {
+              text: '第十四章：变量',
+              link: '/notes/dev-ops/linux/linux-shell-variable.md'
+            },
+            {
+              text: '第十五章：运算符',
+              link: '/notes/dev-ops/linux/linux-shell-operator.md'
+            },
+            {
+              text: '第十六章：条件判断',
+              link: '/notes/dev-ops/linux/linux-shell-condition.md'
+            },
+            {
+              text: '第十七章：流程控制',
+              link: '/notes/dev-ops/linux/linux-shell-flow-control.md'
+            },
+            {
+              text: '第十八章：read读取控制台输入',
+              link: '/notes/dev-ops/linux/linux-shell-read.md'
+            },
+            {
+              text: '第十九章：函数',
+              link: '/notes/dev-ops/linux/linux-shell-function.md'
+            },
+            {
+              text: '第二十章：正则表达式',
+              link: '/notes/dev-ops/linux/linux-shell-regex.md'
+            },
+            {
+              text: '第二十一章：文本处理工具',
+              link: '/notes/dev-ops/linux/linux-shell-text-processing.md'
+            },
+            {
+              text: '第二十二章：综合应用案例',
+              link: '/notes/dev-ops/linux/linux-shell-case.md'
             },
             {
               text: 'clear_watch日志清理工具',
