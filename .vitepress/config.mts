@@ -33,7 +33,15 @@ export default defineConfig({
       '/notes/frontend/': [
         { text: 'HTML', link: '/notes/frontend/html/' },
         { text: 'CSS', link: '/notes/frontend/css/' },
-        { text: 'JavaScript', link: '/notes/frontend/js/' },
+        {
+          text: 'JavaScript',
+          items: [
+            {
+              text: 'Array.prototype.at()方法详解',
+              link: '/notes/frontend/js/js-array-at.md'
+            }
+          ]
+        },
         {
           text: 'TypeScript',
           items: [
