@@ -60,6 +60,10 @@ export default defineConfig({
             {
               text: '第四章：常见问题',
               link: '/notes/frontend/ts/ts-faq.md'
+            },
+            {
+              text: 'declare关键字',
+              link: '/notes/frontend/ts/ts-declare.md'
             }
           ]
         },
