@@ -138,6 +138,10 @@ export default defineConfig({
               text: 'Maven插件repackage配置',
               link: '/notes/engineering/maven/maven-plugin-repackage-config.md'
             },
+            {
+              text: 'Maven安装本地jar包',
+              link: '/notes/engineering/maven/maven-local-jar-install.md'
+            }
           ]
         }
       ],
